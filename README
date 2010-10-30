@@ -1,0 +1,5 @@
+The structure of the current directory hierarchy is something like:
+- README   : this file...
+- src      : will contain most of the source files
+- testarea : will contain small test program used for learning and understanding new stuff
+             this directory will not contain unitary or different kind of test cases!!
