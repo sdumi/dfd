@@ -1,0 +1,9 @@
+01.11.2010
+To compile and link the processes under testarea/...
+ - update the ***.pro file with any specific path required (optional)
+ - run 'qmake' (or full path: /path/to/qmake)
+ - run 'make'
+
+If errors occur durin 'make':
+ - try deleting 'moc_**' files (if any) and do 'make' again: this if some MOC specific error is received.
+ - if not a MOC error: maybe some paths to QT dependencies are missing (ex: I needed to extend LDFLAGS with path to my 'freetype' libraries. In QT extending the LDFLAGS is done by appending to QMAKE_LFLAGS variable from .pro file)
