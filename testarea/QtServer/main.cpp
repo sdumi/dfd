@@ -3,6 +3,7 @@
 #include <QDebug>
 #include "MultiClientServer.h"
 
+/* displays usage */
 void usage ()
 {
 	qDebug() << "Usage:";
